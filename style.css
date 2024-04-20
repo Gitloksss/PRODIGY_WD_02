@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://wallpapers.com/images/featured/futuristic-y3r21iaunx6u3tml.jpg);
+    background-position:bottom right;
+    background-size:cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container {
+    padding: 1rem;
+    max-width: 300px;
+    text-align: center;
+    position: relative;
+    border-radius: 10px;
+    background-color: rgb(255, 254, 254);
+}
+.time {
+    padding: 1rem 0;
+    font-size: 2rem;
+}
+h1,p {
+    color: blueviolet;
+}
+
+button {
+    padding: 0.4rem 1rem;
+    margin: 0 0.2rem;
+    border-radius: 10px;
+    border: 1px solid #b908fa;
+}
+
+button:hover {
+    background-color: rgb(240, 5, 252);
+    color: #320af8;
+}
